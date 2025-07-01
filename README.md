@@ -15,10 +15,10 @@ For each selected frame of the input ensemble, the pipeline executes the followi
 **This strategy enables the characterization of pharmacophoric features across conformationally diverse states, capturing temporal variations in ligand binding modes and interaction profiles.
 
 # Key Features
-- Support for high-throughput batch processing and parallel execution.
 - Integration with Schrödinger's Glide, PrepWizard, and e-Pharmacophore utilities.
 - Designed for seamless use with MD trajectories, but also applicable to other aligned ligand-receptor ensembles.
 - Organized output with traceable intermediate and final data products.
+- Support for high-throughput batch processing and parallel execution.
 
 # Software Requirements
 - A working installation of the **Schrödinger Suite** (with valid license and utilities available in PATH)  
