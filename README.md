@@ -21,8 +21,8 @@ For each selected frame of the input ensemble, the pipeline executes the followi
 - Organized output with traceable intermediate and final data products.
 
 # Software Requirements
-- A working installation of the **Schrödinger Suite**
 - Python **3.x**
+- A working installation of the **Schrödinger Suite**
 - Environment variable `SCHRODINGER` must point to the root directory of the Schrödinger installation  
 
 # Input File Requirements
@@ -35,15 +35,15 @@ $SCHRODINGER/run python3 run_dynamic_epharmacophore.py --start 1 --end 5001 --st
 # Output
 All results produced by the pipeline will be automatically organized into a predefined directory structure. This ensures that intermediate files and final pharmacophore models are stored in a clear and traceable manner.
 
-Intermediate files such as preprocessed .mae structures, receptor-ligand splits, grid generation data, and logs will be saved under:
+- Intermediate files such as preprocessed .mae structures, receptor-ligand splits, grid generation data, and logs will be saved under:
 
 <working_directory>/DYNOPHORE_ANALYSIS/PROCESSED_FILES/
 
-Final pharmacophore hypotheses (.phypo files) generated for each MD frame or input structure will be collected under:
+- Final pharmacophore hypotheses (.phypo files) generated for each MD frame or input structure will be collected under:
 
 <working_directory>/DYNOPHORE_ANALYSIS/saved_HYPOTHESIS/
 
-This organized output allows for easy post-processing, analysis, and validation of the dynamic pharmacophore models across the entire ensemble.
+***This organized output allows for easy post-processing, analysis, and validation of the dynamic pharmacophore models across the entire ensemble.
 
 # Note
 Although primarily intended for MD-based analyses, this pipeline can be employed with any ensemble of structurally aligned protein-ligand complexes to investigate the pharmacophoric implications of binding flexibility and structural heterogeneity.
