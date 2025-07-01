@@ -12,7 +12,7 @@ For each selected frame of the input ensemble, the pipeline executes the followi
 4. Generation of Glide-compatible receptor grid files.
 5. Construction of e-pharmacophore hypotheses based on the ligand's in situ conformation.
 
-This strategy enables the characterization of pharmacophoric features across conformationally diverse states, capturing temporal variations in ligand binding modes and interaction profiles.
+**This strategy enables the characterization of pharmacophoric features across conformationally diverse states, capturing temporal variations in ligand binding modes and interaction profiles.
 
 # Key Features
 - Support for high-throughput batch processing and parallel execution.
