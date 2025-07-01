@@ -1,7 +1,7 @@
 # Automated Dynamic e-Pharmacophore Generation Pipeline
 
 # Overview
-This Python-based pipeline implements a fully automated workflow for the generation of dynamic e-pharmacophore models derived from time-resolved protein-ligand complexes, typically obtained from molecular dynamics (MD) simulations. The approach integrates key components of the Schrödinger Suite (2018 release) to reflect the dynamic nature of protein-ligand interactions in pharmacophore modeling.
+This Python-based pipeline implements a fully automated workflow for the generation of dynamic e-pharmacophore models derived from time-resolved protein-ligand complexes, typically obtained from molecular dynamics (MD) simulations. The approach integrates key components of the Schrödinger Suite to reflect the dynamic nature of protein-ligand interactions in pharmacophore modeling.
 
 # Methodology
 For each selected frame of the input ensemble, the pipeline executes the following steps:
