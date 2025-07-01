@@ -17,21 +17,20 @@ For each selected frame of the input ensemble, the pipeline executes the followi
 # Key Features
 - Integration with Schrödinger's Glide, PrepWizard, and e-Pharmacophore utilities.
 - Designed for seamless use with MD trajectories, but also applicable to other aligned ligand-receptor ensembles.
-- Organized output with traceable intermediate and final data products.
 - Support for high-throughput batch processing and parallel execution.
+- Organized output with traceable intermediate and final data products.
 
 # Software Requirements
-- A working installation of the **Schrödinger Suite** (with valid license and utilities available in PATH)  
-- Python **3.x** with `multiprocessing` support  
+- A working installation of the **Schrödinger Suite**
+- Python **3.x**
 - Environment variable `SCHRODINGER` must point to the root directory of the Schrödinger installation  
 
 # Input File Requirements
-- **Aligned protein-ligand complex files** in Maestro `.mae` format  
-- Files must be placed in the following directory:
+- **Aligned protein-ligand complex files** in Maestro `.mae` format
 
 # Usage Example
 
-$SCHRODINGER18/run python3 run_dynamic_epharmacophore.py --start 1 --end 5001 --step 1
+$SCHRODINGER/run python3 run_dynamic_epharmacophore.py --start 1 --end 5001 --step 1
 
 # Output
 All results produced by the pipeline will be automatically organized into a predefined directory structure. This ensures that intermediate files and final pharmacophore models are stored in a clear and traceable manner.
