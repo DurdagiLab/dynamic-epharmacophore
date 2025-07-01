@@ -20,13 +20,31 @@ This strategy enables the characterization of pharmacophoric features across con
 - Designed for seamless use with MD trajectories, but also applicable to other aligned ligand-receptor ensembles.
 - Organized output with traceable intermediate and final data products.
 
-# Requirements
-- Schrödinger Suite 2018 (installed and licensed)
-- Python 3.x with multiprocessing support
+# Software Requirements
+- A working installation of the **Schrödinger Suite** (with valid license and utilities available in PATH)  
+- Python **3.x** with `multiprocessing` support  
+- Environment variable `SCHRODINGER` must point to the root directory of the Schrödinger installation  
+
+# Input File Requirements
+- **Aligned protein-ligand complex files** in Maestro `.mae` format  
+- Files must be placed in the following directory:
 
 # Usage Example
 
 $SCHRODINGER18/run python3 run_dynamic_epharmacophore.py --start 1 --end 5001 --step 1
+
+# Output
+All results produced by the pipeline will be automatically organized into a predefined directory structure. This ensures that intermediate files and final pharmacophore models are stored in a clear and traceable manner.
+
+Intermediate files such as preprocessed .mae structures, receptor-ligand splits, grid generation data, and logs will be saved under:
+
+<working_directory>/DYNOPHORE_ANALYSIS/PROCESSED_FILES/
+
+Final pharmacophore hypotheses (.phypo files) generated for each MD frame or input structure will be collected under:
+
+<working_directory>/DYNOPHORE_ANALYSIS/saved_HYPOTHESIS/
+
+This organized output allows for easy post-processing, analysis, and validation of the dynamic pharmacophore models across the entire ensemble.
 
 # Note
 Although primarily intended for MD-based analyses, this pipeline can be employed with any ensemble of structurally aligned protein-ligand complexes to investigate the pharmacophoric implications of binding flexibility and structural heterogeneity.
