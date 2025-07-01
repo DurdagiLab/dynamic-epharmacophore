@@ -37,11 +37,11 @@ All results produced by the pipeline will be automatically organized into a pred
 
 - Intermediate files such as preprocessed .mae structures, receptor-ligand splits, grid generation data, and logs will be saved under:
 
-<working_directory>/DYNOPHORE_ANALYSIS/PROCESSED_FILES/
+  <working_directory>/DYNOPHORE_ANALYSIS/PROCESSED_FILES/
 
 - Final pharmacophore hypotheses (.phypo files) generated for each MD frame or input structure will be collected under:
 
-<working_directory>/DYNOPHORE_ANALYSIS/saved_HYPOTHESIS/
+  <working_directory>/DYNOPHORE_ANALYSIS/saved_HYPOTHESIS/
 
 ***This organized output allows for easy post-processing, analysis, and validation of the dynamic pharmacophore models across the entire ensemble.
 
