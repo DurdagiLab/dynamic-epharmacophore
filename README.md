@@ -51,4 +51,4 @@ Although primarily intended for MD-based analyses, this pipeline can be employed
 # Citation
 If you utilize this tool in your research or publication, please cite the following institution:
 
-Computational Drug Design Center (HITMER), Faculty of Pharmacy, Bahçeşehir University, Istanbul, Turkey
+Isaoğlu, M., & Durdağı, S. (2025). Automated Dynamic e-Pharmacophore Generation Pipeline (Version 1.0) [Computer software]. Computational Drug Design Center (HITMER), Faculty of Pharmacy, Bahçeşehir University. https://github.com/DurdagiLab/dynamic-epharmacophore
